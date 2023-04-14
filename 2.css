@@ -30,13 +30,44 @@ a{
     display: flex;
     justify-content: center;
     }
-
-.menu1{
+.container-nav{
+    display: flex;
+}
+.login-register ul{
+    display: flex;
+}
+.container-nav{
         background-color: #036
     }
-.menu1{
+.container-nav{
         display: flex;
     }
+.login-register ul{
+    display: flex;
+    flex: 1;
+}
+.menu1{
+    flex: 3;
+}
+.login-register ul li a{
+    font-style: italic;
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+    font-weight: 400;
+}
+.login-register ul li{
+    display:inline-block;
+    color: #fff;
+    font-size: 15px;
+    
+   
+}
+.login-register ul li {
+    margin-right: 15px;
+}
 .menu1 ul li{
     display:inline-block;
     color: #fff;
@@ -92,6 +123,7 @@ font-style: italic;
 .menu1 li ul.sub-menu li ul.sub-menu {
     background-color: #036
 }
+
 
 .container-map{
     width: 750px;

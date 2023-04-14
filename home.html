@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+  </head>
+  <body>
+    <h1>Welcome to my website!</h1>
+    <p id="Email"></p>
+    <script>
+      var Email = localStorage.getItem('Email');
+      document.getElementById('Email').textContent = 'Hello, ' + Email + '!';
+    </script>
+  </body>
+</html>

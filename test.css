@@ -1,0 +1,10 @@
+.container-nav{
+    display: flex;
+    background-color: #036;
+}
+.menu1 ul {
+    display: flex;
+}
+.login-register ul{
+    display: flex;
+}
